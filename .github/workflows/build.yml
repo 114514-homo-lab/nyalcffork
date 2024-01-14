@@ -10,7 +10,7 @@ jobs:
   build-linux:
     runs-on: [linux, ARM64,self-hosted]
     os:
-          - debian-11
+          - ubuntu-22.04
           
     steps:
       - name: Checkout
