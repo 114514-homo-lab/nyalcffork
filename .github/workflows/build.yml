@@ -8,9 +8,9 @@ on:
 
 jobs:
   build-linux:
-    runs-on: [linux, ARM64,self-hosted]
+    runs-on: [linux, ARM64]
     os:
-          - ubuntu-22.04
+          - debian-11
           
     steps:
       - name: Checkout
