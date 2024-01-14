@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-linux:
-    runs-on: [arm64,self-hosted]
+    runs-on: [arm64]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
